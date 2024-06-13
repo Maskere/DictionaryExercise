@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DictionaryExercise
 {
+    //Owner klassen nedarver fra Person. Skal ikke lave 'properties', bare kald på dem fra klassen Person:
     public class Owner : Person
     {
         public Owner(string _name, string _phoneNumber, string _title, int _repairId) 

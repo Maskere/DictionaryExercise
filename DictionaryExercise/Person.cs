@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace DictionaryExercise
 {
+    // ABSTRACT klasse
     public abstract class Person
     {
         public string PhoneNumber;
         public string Title;
         public string Name;
         public int RepairId;
+
 
     }
 }
